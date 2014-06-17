@@ -41,6 +41,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.mobicom.CamActivity"
+            android:label="cam activity"
+            android:screenOrientation="landscape" >
+        </activity>
     </application>
 
 </manifest>

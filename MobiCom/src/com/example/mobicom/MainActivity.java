@@ -14,6 +14,11 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 	}
 
+	public void onTakePicture(View v) {
+		Intent i = new Intent(this, CamActivity.class);
+		startActivity(i);
+	}
+
 	public void onScan(View v) {
 		Intent intent = new Intent("com.google.zxing.client.android.SCAN");
 		intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
