@@ -22,6 +22,7 @@ public class MainActivity extends Activity {
 	public void onScan(View v) {
 		Intent intent = new Intent("com.google.zxing.client.android.SCAN");
 		intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+//		sendBroadcast(intent);
 		startActivityForResult(intent, 0);
 	}
 
@@ -37,4 +38,5 @@ public class MainActivity extends Activity {
 			}
 		}
 	}
+
 }
