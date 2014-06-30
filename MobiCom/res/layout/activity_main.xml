@@ -7,14 +7,19 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/scan" 
-        android:onClick="onScan"/>
-    
+        android:onClick="onScan"
+        android:text="@string/scan" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="take picture" 
-        android:onClick="onTakePicture"/>
-
+        android:onClick="onTakePicture"
+        android:text="take picture" />
 
 </LinearLayout>
